@@ -8,7 +8,7 @@ const TableHeader = () => {
                 <th>Last name</th>
             </tr>
         </thead>
-    )
+    );
 }
 
 const TableBody  = () => {
@@ -27,7 +27,7 @@ const TableBody  = () => {
                 <td>Turing</td>
             </tr>
         </tbody>
-    )
+    );
 }
 
 class Table extends Component {
@@ -37,7 +37,7 @@ class Table extends Component {
                 <TableHeader />
                 <TableBody />
             </table>
-        )
+        );
     }
 }
 

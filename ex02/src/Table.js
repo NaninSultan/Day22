@@ -25,7 +25,7 @@ class Table extends Component {
                     </tr>
                 </tbody>
             </table>
-        )
+        );
     }
 }
 

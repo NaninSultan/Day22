@@ -34,7 +34,7 @@ class Table extends Component {
                 <TableHeader />
                 <TableBody characterData={characterData} />
             </table>
-        )
+        );
     }
 }
 
